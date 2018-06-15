@@ -1,2 +1,4 @@
 # JavaScriptExercises
 https://www.w3resource.com/javascript-exercises/
+
+- [x] 1. Display the current day and time in a specific format

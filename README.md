@@ -5,3 +5,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 2. Print the contents of the current window
 - [x] 3. Display the current date
 - [x] 4. Calculate the area of a triangle
+- [x] 5. Rotate a string

@@ -1,0 +1,27 @@
+<!-- 5. String rotation -->
+
+<!-- Rotate the string 'w3resource' in right direction by periodically removing
+one letter from the end of the string and attaching it to the front. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>String rotation</title>
+  </head>
+  <body>
+    <p id="rotate">w3resource</p>
+    <script>
+      const rotate = id => {
+        const el = document.querySelector(`#${id}`);
+        let text = el.textContent;
+        const rewrite = () => {
+          text = text[text.length - 1] + text.slice(0, text.length - 1);
+          el.textContent = text;
+        };
+        setInterval(rewrite, 1e3);
+      };
+      rotate('rotate');
+    </script>
+  </body>
+</html>

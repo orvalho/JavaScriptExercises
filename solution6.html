@@ -1,0 +1,15 @@
+<!-- 6. Check if a given year is a leap year in the Gregorian calendar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leap year</title>
+</head>
+<body>
+  <script>
+    const input = prompt('Enter year:');
+    const answer = (input % 100 === 0) ? (input % 400 === 0) : (input % 4 === 0);
+    console.log(answer);
+  </script>
+</body>
+</html>

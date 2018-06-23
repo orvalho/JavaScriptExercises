@@ -6,3 +6,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 3. Display the current date
 - [x] 4. Calculate the area of a triangle
 - [x] 5. Rotate a string
+- [x] 6. Check if a given year is a leap year

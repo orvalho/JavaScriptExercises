@@ -1,0 +1,25 @@
+<!-- 8. Compare user input to random number in a certain range -->
+<!-- Write a JavaScript program where the program takes a random
+integer between 1 to 10, the user is then prompted to input
+a guess number. If the user input matches with guess number,
+the program will display a message "Good Work" otherwise
+display a message "Not matched" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess a number</title>
+</head>
+<body>
+  <script>
+    const number = Math.floor(Math.random() * 10 + 1);
+    let userGuess = prompt('Guess a number between 1 and 10');
+    // console.log(typeof number);
+    // console.log(typeof userGuess);
+    userGuess = parseInt(userGuess);
+    const result = (number === userGuess) ? 'Good work' : 'Not matched';
+    console.log(result);
+    console.log(`Random number - ${number}, user guessed - ${userGuess}`);
+  </script>
+</body>
+</html>

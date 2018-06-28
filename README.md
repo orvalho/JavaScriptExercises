@@ -8,3 +8,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 5. Rotate a string
 - [x] 6. Check if a given year is a leap year
 - [x] 7. Find 1st January be a Sunday between a range of years
+- [x] 8. Compare user input to random number in a certain range

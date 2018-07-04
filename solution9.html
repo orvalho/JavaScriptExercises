@@ -1,0 +1,30 @@
+<!-- 9. Calculate number of days left until next Christmas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Days till Xmas</title>
+</head>
+<body>
+  <script>
+    const now = new Date();
+    // console.log(now);
+    const xmas = new Date(now.getFullYear(), 11, 25);
+    // console.log(xmas);
+
+    // in case we already have celebrated xmas this year
+    if (now.getMonth() === 11 && now.getDate() > 25) {
+      xmas.setFullYear(xmas.getFullYear() + 1);
+    }
+    // console.log(xmas.getFullYear());
+
+    // calculate how many milliseconds a day has
+    const oneDay = 24 * 60 * 60 * 1000;
+
+    // calculate days til xmas
+    // The getTime() method returns the number of milliseconds between midnight of January 1, 1970 and the specified date
+    const result = Math.ceil((xmas.getTime() - now.getTime()) / oneDay);
+    console.log(`${result} day${result === 1 ? '' : 's'} left till Xmas!`);
+  </script>
+</body>
+</html>

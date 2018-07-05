@@ -1,0 +1,41 @@
+<!-- Calculate multiplication and division of two numbers (input from user) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Multiplication and division of two numbers</title>
+  </head>
+  <body>
+    <label for="num1">1st Number is:</label>
+    <input id="num1" type="number"><br>
+    <label for="num2">2nd Number is:</label>
+    <input id="num2" type="number"><br>
+    <button id="multiply">Multiply</button>
+    <button id="divide">Divide</button>
+    <p>The Result is:</p>
+    <p id="result"></p>
+
+    <script>
+
+      const multiplyButton = document.querySelector('#multiply');
+      const divideButton = document.querySelector('#divide');
+      const result = document.querySelector('#result');
+
+      const multiply = () => {
+        const num1 = document.querySelector('#num1').value;
+        const num2 = document.querySelector('#num2').value;
+        result.textContent = num1 * num2;
+      };
+
+      const divide = () => {
+        const num1 = document.querySelector('#num1').value;
+        const num2 = document.querySelector('#num2').value;
+        result.textContent = num1 / num2;
+      };
+
+      multiplyButton.addEventListener('click', multiply);
+      divideButton.addEventListener('click', divide);
+
+    </script>
+  </body>
+  </html>

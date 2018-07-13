@@ -11,3 +11,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 8. Compare user input to random number in a certain range
 - [x] 9. Calculate number of days left until next Christmas
 - [x] 10. Calculate multiplication and division of two numbers
+- [x] 11. Convert temperature F <-> C

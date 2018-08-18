@@ -14,3 +14,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 11. Convert temperature F <-> C
 - [x] 12. Get the website's URL
 - [x] 13. Create a variable using a user-defined name 
+- [x] 14. Get the extension of a filename 

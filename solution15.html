@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Difference</title>
+</head>
+<body>
+  <!-- 15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference. -->
+  <script>
+    function getDifference(num) {
+      return  num <= 13 ? 13 - num : 2 * (num - 13);
+    }
+
+    console.log(getDifference(23));
+    console.log(getDifference(3));
+  </script>
+</body>
+</html>

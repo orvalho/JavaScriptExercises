@@ -17,4 +17,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 14. Get the extension of a filename 
 - [x] 15. Get the difference between a given number
 - [x] 16. Compute the sum of the two given integers
-
+- [x] 17. Compute the absolute difference

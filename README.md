@@ -18,3 +18,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 15. Get the difference between a given number
 - [x] 16. Compute the sum of the two given integers
 - [x] 17. Compute the absolute difference
+- [x] 18. Check two given numbers and return true if one of the number is 50 or if their sum is 50

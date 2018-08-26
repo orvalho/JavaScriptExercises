@@ -20,3 +20,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 17. Compute the absolute difference
 - [x] 18. Check two given numbers and return true if one of the number is 50 or if their sum is 50
 - [x] 19. Check a given integer is within 20 of 100 or 400
+- [x] 20. Check two given integers, one is positive and one is negative

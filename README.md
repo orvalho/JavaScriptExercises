@@ -22,3 +22,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 19. Check a given integer is within 20 of 100 or 400
 - [x] 20. Check two given integers, one is positive and one is negative
 - [x] 21. Create a new string adding "Py" in front of a given string
+- [x] 22. Remove a character at the specified position of a given string and return the new string

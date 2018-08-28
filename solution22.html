@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Remove character</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to remove a character at the specified position
+       of a given string and return the new string. -->
+  <script>
+    function removeChar(str, pos) {
+      str = str.split('');
+      str.splice(pos, 1);
+      str = str.join('');
+      return str;
+    }
+
+    console.log(removeChar('Python', 0));
+    console.log(removeChar('Python', 3));
+    console.log(removeChar('Python', 5));
+  </script>
+</body>
+</html>

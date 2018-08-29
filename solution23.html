@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First and last</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to create a new string from a given string
+       changing the position of first and last characters. The string length
+       must be greater than or equal to 1. -->
+  <script>
+    function firstAndLast(str) {
+      if (str.length === 0) {
+        return 'The string length must be greater than or equal to 1.';
+      } else if (str.length === 1) {
+        return str;
+      } else {
+        return str.charAt(str.length - 1) + str. substring(1, str.length - 1) + str.charAt(0);
+      }
+    }
+    console.log(firstAndLast('a'));
+    console.log(firstAndLast('ab'));
+    console.log(firstAndLast('abc'));
+  </script>
+</body>
+</html>

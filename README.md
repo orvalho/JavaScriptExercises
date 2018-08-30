@@ -24,3 +24,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 21. Create a new string adding "Py" in front of a given string
 - [x] 22. Remove a character at the specified position of a given string and return the new string
 - [x] 23. Create a new string from a given string changing the position of first and last characters
+- [x] 24. Create a new string from a given string with the first character of the given string added at the front and back

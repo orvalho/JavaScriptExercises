@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulate string</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to create a new string from a given string
+  with the first character of the given string added at the front and back. -->
+  <script>
+    function manipulate(str) {
+      return str.charAt(0) + str + str.charAt(0);
+    }
+
+    console.log(manipulate('a'));
+    console.log(manipulate('ab'));
+    console.log(manipulate('abc'));
+  </script>
+</body>
+</html>

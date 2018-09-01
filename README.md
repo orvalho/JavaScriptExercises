@@ -25,3 +25,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 22. Remove a character at the specified position of a given string and return the new string
 - [x] 23. Create a new string from a given string changing the position of first and last characters
 - [x] 24. Create a new string from a given string with the first character of the given string added at the front and back
+- [x] 25. Check if a given positive number is a multiple of 3 or a multiple of 7

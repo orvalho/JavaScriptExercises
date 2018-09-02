@@ -26,3 +26,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 23. Create a new string from a given string changing the position of first and last characters
 - [x] 24. Create a new string from a given string with the first character of the given string added at the front and back
 - [x] 25. Check if a given positive number is a multiple of 3 or a multiple of 7
+- [x] 26. Create a new string from a given string taking the last 3 characters and added at both the front and back

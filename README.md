@@ -27,3 +27,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 24. Create a new string from a given string with the first character of the given string added at the front and back
 - [x] 25. Check if a given positive number is a multiple of 3 or a multiple of 7
 - [x] 26. Create a new string from a given string taking the last 3 characters and added at both the front and back
+- [x] 27. Check if a string starts with 'Java' and false otherwise

@@ -29,3 +29,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 26. Create a new string from a given string taking the last 3 characters and added at both the front and back
 - [x] 27. Check if a string starts with 'Java' and false otherwise
 - [x] 28. Check if two given integer values are in the range 50..99
+- [x] 29. Check if three given integer values are in the range 50..99

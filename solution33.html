@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>In range</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check if two numbers are in range 40..60
+  or in the range 70..100 inclusive. -->
+
+  <script>
+    function inRange(x, y) {
+      return (x >= 40 && x <= 60 && y >= 40 && y <= 60 ) || (x >= 70 && x <= 100 && y >= 70 && y <= 100);
+    }
+
+    console.log(inRange(44, 56));
+    console.log(inRange(70, 95));
+    console.log(inRange(50, 89));
+  </script>
+</body>
+</html>

@@ -33,3 +33,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 30. Check if a string "Script" presents at 5th (index 4) position in a given string
 - [x] 31. Find the largest of three given integers
 - [x] 32. Find a value which is nearest to 100 from two different given integer values
+- [x] 33. Check if two numbers are in range 40..60 or in the range 70..100 inclusive

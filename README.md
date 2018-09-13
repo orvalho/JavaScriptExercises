@@ -34,3 +34,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 31. Find the largest of three given integers
 - [x] 32. Find a value which is nearest to 100 from two different given integer values
 - [x] 33. Check if two numbers are in range 40..60 or in the range 70..100 inclusive
+- [x] 34. Find the larger number from the two given positive integers

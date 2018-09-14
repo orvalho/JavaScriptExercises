@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check a given string contains
+  2 to 4 numbers of a specified character. -->
+
+  <script>
+    function test(str, char) {
+      let result = 0;
+      for(let i = 0; i < str.length; i++) {
+        if(str.charAt(i) === char) {
+          result ++;
+        }
+      }
+      return (result >= 2 && result <= 4);
+      }
+
+      console.log(test("Python", "y"));
+      console.log(test("JavaScript", "a"));
+      console.log(test("Console", "o"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>convert</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to create a new string with first 3 characters
+  are in lower case from a given string. If the string length is less than 3
+  convert all the characters in upper case. -->
+
+  <script>
+    function convert(str) {
+      if(str.length < 3) {
+        return str.toUpperCase();
+      } else {
+        return str.substring(0, 3).toLowerCase() + str.substring(3);
+      }
+    }
+
+    console.log(convert("Python"));
+    console.log(convert("Py"));
+    console.log(convert("JAVAScript"));
+  </script>
+</body>
+</html>

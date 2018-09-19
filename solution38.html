@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check the total marks of a student in various examinations.
+  The student will get A+ grade if the total marks are in the range 89..100 inclusive,
+  if the examination is "Final-exam." the student will get A+ grade where total marks must be
+  greater than or equal to 90. Return true if the student get A+ grade or false otherwise. -->
+
+  <script>
+    function test(mark, isExam) {
+      return (mark >= 89 && mark <= 100 && !isExam) || (mark >= 90 && isExam);
+    }
+
+    console.log(test("78", " "));
+    console.log(test("89", "true "));
+    console.log(test("99", "true "));
+  </script>
+</body>
+</html>

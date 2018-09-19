@@ -38,3 +38,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 35. Check a given string contains 2 to 4 numbers of a specified character
 - [x] 36. Check if the last digit of the three given positive integers is same
 - [x] 37. Create new string with first 3 characters are in lower case
+- [x] 38. Check the total marks of a student in various examinations

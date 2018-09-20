@@ -39,3 +39,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 36. Check if the last digit of the three given positive integers is same
 - [x] 37. Create new string with first 3 characters are in lower case
 - [x] 38. Check the total marks of a student in various examinations
+- [x] 39. Compute the sum of the two given integers

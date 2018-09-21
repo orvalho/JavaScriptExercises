@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>8</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check from two given integers if either one is 8 or their sum or difference is 8. -->
+  <script>
+    const test = (a, b) => {
+      return a === 8 || b === 8 || a + b === 8 || Math.abs(a - b) === 8;
+    }
+
+    console.log(test(7, 8));
+    console.log(test(16, 8));
+    console.log(test(24, 32));
+    console.log(test(17, 18));
+  </script>
+</body>
+</html>

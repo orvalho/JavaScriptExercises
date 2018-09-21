@@ -40,3 +40,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 37. Create new string with first 3 characters are in lower case
 - [x] 38. Check the total marks of a student in various examinations
 - [x] 39. Compute the sum of the two given integers
+- [x] 40. Check from two given integers if either one is 8 or their sum or difference is 8

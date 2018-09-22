@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check three given numbers,
+  if the three numbers are same return 30 otherwise return 20 and
+  if two numbers are same return 40. -->
+
+  <script>
+    function test(a, b, c) {
+      return a === b && b === c ? 30 : (a === b || a === c || b === c ? 40 : 20);
+    }
+
+    console.log(test(8, 8, 8));
+    console.log(test(8, 8, 18));
+    console.log(test(8, 7, 18));
+  </script>
+</body>
+</html>

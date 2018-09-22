@@ -41,3 +41,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 38. Check the total marks of a student in various examinations
 - [x] 39. Compute the sum of the two given integers
 - [x] 40. Check from two given integers if either one is 8 or their sum or difference is 8
+- [x] 41. Check three given numbers, if the three numbers are same return 30 otherwise return 20 and if two numbers are same return 40

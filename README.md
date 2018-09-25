@@ -43,3 +43,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 40. Check from two given integers if either one is 8 or their sum or difference is 8
 - [x] 41. Check three given numbers, if the three numbers are same return 30 otherwise return 20 and if two numbers are same return 40
 - [x] 42. Check if three given numbers are increasing in strict mode or in soft mode
+- [x] 43. Check from three given numbers that two or all of them have the same rightmost digit

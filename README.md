@@ -44,3 +44,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 41. Check three given numbers, if the three numbers are same return 30 otherwise return 20 and if two numbers are same return 40
 - [x] 42. Check if three given numbers are increasing in strict mode or in soft mode
 - [x] 43. Check from three given numbers that two or all of them have the same rightmost digit
+- [x] 44. Check from three given integers that if a number is greater than or equal to 20 and less than one of the others

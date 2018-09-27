@@ -45,3 +45,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 42. Check if three given numbers are increasing in strict mode or in soft mode
 - [x] 43. Check from three given numbers that two or all of them have the same rightmost digit
 - [x] 44. Check from three given integers that if a number is greater than or equal to 20 and less than one of the others
+- [x] 45. Check two given integer values and return true if one of the number is 15 or if their sum or difference is 15

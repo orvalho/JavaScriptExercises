@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check two given integer values and
+  return true if one of the number is 15 or if their sum or difference is 15. -->
+
+  <script>
+    function test(a, b) {
+      return (a === 15 || b === 15 || (a + b) === 15 || Math.abs(a - b) === 15);
+    }
+
+    console.log(test(15, 9));
+    console.log(test(25, 15));
+    console.log(test(7, 8));
+    console.log(test(25, 10));
+    console.log(test(5, 9));
+    console.log(test(7, 9));
+    console.log(test(9, 25));
+  </script>
+</body>
+</html>

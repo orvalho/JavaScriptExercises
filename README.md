@@ -46,3 +46,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 43. Check from three given numbers that two or all of them have the same rightmost digit
 - [x] 44. Check from three given integers that if a number is greater than or equal to 20 and less than one of the others
 - [x] 45. Check two given integer values and return true if one of the number is 15 or if their sum or difference is 15
+- [x] 46. Check two given non-negative integers and if one of the number is multiple of 7 or 11

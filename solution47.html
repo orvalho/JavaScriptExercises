@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <!-- Write a JavaScript program to check if a number in the range 40..10000 presents in two number (in same range).
+  For example 40 presents in 400 and 4000. -->
+
+  <script>
+    function test(a, b) {
+      return a >= 40 && a <= 10000 && b >= 40 && b <= 10000;
+    }
+
+    console.log(test(40, 4000));
+    console.log(test(80, 320));
+    console.log(test(8900000, 4000));
+  </script>
+</body>
+</html>

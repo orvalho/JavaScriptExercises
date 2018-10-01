@@ -48,3 +48,4 @@ https://www.w3resource.com/javascript-exercises/
 - [x] 45. Check two given integer values and return true if one of the number is 15 or if their sum or difference is 15
 - [x] 46. Check two given non-negative integers and if one of the number is multiple of 7 or 11
 - [x] 47. Check if a number in the range 40..10000 presents in two number
+- [x] 48. Reverse a given string
